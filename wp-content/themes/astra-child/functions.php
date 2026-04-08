@@ -31,10 +31,24 @@ function child_enqueue_styles() {
     wp_enqueue_script( 'hajimi-swiper', get_stylesheet_directory_uri() . '/assets/js/swiper-bundle.min.js', array(), CHILD_THEME_ASTRA_CHILD_VERSION, true );
     wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/assets/js/scripts.js', array(), CHILD_THEME_ASTRA_CHILD_VERSION, true );
 }
-
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+add_action('admin_enqueue_scripts', function() {
+
+    $screen = get_current_screen();
+
+    if ( isset($screen->id) && in_array($screen->id, [
+        'widgets',
+        'customize'
+    ]) ) {
+        return;
+    }
+
+    wp_enqueue_script('wp-editor');
+});
 
 function year() {
     $year = date('Y');
     return $year;
 }
+
