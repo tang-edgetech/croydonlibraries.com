@@ -48,8 +48,10 @@ add_action('admin_enqueue_scripts', function() {
 });
 
 function display_year_function() {
-    ob_start()
+    ob_start();
+
     echo date('Y');
+    
     return ob_get_clean();
 }
 add_shortcode( 'year', 'display_year_function' );
