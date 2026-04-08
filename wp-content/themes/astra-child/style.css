@@ -48,13 +48,37 @@ table, table th, table td {
 table th, table td {
     padding: 0.625rem 1rem;
 }
-
-
 #masthead .eael-simple-menu-container {
     min-height: 1.25rem;
 }
-#masthead .elementor-widget-eael-simple-menu .eael-simple-menu .menu-item > a {
-    
+.hajimi-search-form {
+    display: flex;
+    align-items: center;
 }
-
-
+.hajimi-search-form > input {
+    display: block;
+    border: 0.063rem solid #E2E2E2;
+    border-radius: 0;
+    border-top-left-radius: 0.188rem;
+    border-bottom-left-radius: 0.188rem;
+    width: 12.5rem;
+    padding: 0.25rem;
+}
+.hajimi-search-form > input, .hajimi-search-form > input:focus, .hajimi-search-form > input:active {
+    border-style: solid;
+}
+.btn.btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.063rem solid #E2E2E2;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0;
+    border-top-right-radius: 0.188rem;
+    border-bottom-right-radius: 0.188rem;
+}
+.btn.btn-submit i {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
