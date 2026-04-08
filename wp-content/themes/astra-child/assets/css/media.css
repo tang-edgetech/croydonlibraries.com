@@ -9,6 +9,9 @@
 }
 @media (max-width: 1199px) {
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle {
+        display: flex;
+        align-items: center;
+        position: relative;
         padding: 0;
         width: max-content;
     }
@@ -17,12 +20,9 @@
         height: 1.5rem;
         fill: #333;
     }
-    #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle {
-        display: flex;
-        align-items: center;
-    }
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle::before {
         content: 'MENU';
+        position: relative;
         display: inline-block;
         margin: 0;
         font-size: 0.875rem;
