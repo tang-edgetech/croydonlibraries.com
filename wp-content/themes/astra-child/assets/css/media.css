@@ -11,11 +11,13 @@
     
 }
 @media (min-width: 1200px) {
-    
+    #masthead .eael-simple-menu >  .menu-item:last-child > a {
+        border-right: 0;
+    }
 }
 @media (min-width: 1600px) {
 
 }
 @media (min-width: 1900px) {
-    
+
 }

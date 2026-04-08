@@ -60,7 +60,7 @@ function hajimi_search_form_function() {
     <div class="hajimi-searchbar">
         <button type="button" class="btn btn-search hajimi-searchbar-button d-flex d-xl-none"><i class="fas fa-search" aria-hidden="true"></i><span>Search</span></button>
         <form class="hajimi-search-form" method="get" action="/">
-            <input type="text" id="hajimi-search" name="s" value="<?php the_search_query();?>"/>
+            <input type="text" id="hajimi-search" name="s" value="<?php the_search_query();?>" placeholder="Search Libraries"/>
             <button type="submit" class="btn btn-search hajimi-search-form-button"><i class="fas fa-search" aria-hidden="true"></i><span class="d-none">Search</span></button>
         </form>
     </div>
