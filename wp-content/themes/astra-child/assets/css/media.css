@@ -32,6 +32,18 @@
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle.is-active::before {
         content: 'CLOSE';
     }
+    #masthead .eael-simple-menu {
+        position: absolute;
+        top: -22px;
+        border-radius: 3px;
+        right: -1rem;
+        max-width: 380px;
+        width: 100%;
+        width: 320px;
+        padding: 70px 0 1rem;
+        background: #ddd;
+        text-align: center;
+    }
 }
 @media (min-width: 1200px) {
     .elementor-widget-eael-simple-menu .eael-simple-menu > .menu-item:last-child > a {
