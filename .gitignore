@@ -1,0 +1,26 @@
+# Ignore WordPress core folders
+wp-admin/
+wp-content/
+wp-includes/
+
+# Ignore all root files starting with wp-
+wp-*.php
+
+# Keep wp-config if you want (optional)
+!wp-config-sample.php
+!wp-config-local.php
+
+# Ignore uploads (optional but recommended)
+!wp-content/uploads/
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore cache
+wp-content/cache/
+
+# Ignore node / build (if any)
+node_modules/
+
+# OS / misc
+.DS_Store
+Thumbs.db
