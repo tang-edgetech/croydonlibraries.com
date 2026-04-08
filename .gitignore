@@ -1,6 +1,5 @@
 # Ignore WordPress core folders
 wp-admin/
-wp-content/
 wp-includes/
 
 # Ignore all root files starting with wp-
