@@ -36,6 +36,9 @@ html, body {
 .elementor-widget-text-editor p:not(:last-child), .elementor-text-editor p:not(:last-child), .elementor-widget-text-editor ul:not(:last-child), .elementor-text-editor ul:not(:last-child), .elementor-widget-text-editor ol:not(:last-child), .elementor-text-editor ol:not(:last-child) {
     margin-bottom: 1.5rem;
 }
+input[type="text"], input[type="number"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type=reset], input[type=tel], input[type=date], select {
+    height: 1.25rem;
+}
 .table-wrapper {
     overflow-x: auto;
 }
@@ -67,18 +70,20 @@ table th, table td {
 .hajimi-search-form > input, .hajimi-search-form > input:focus, .hajimi-search-form > input:active {
     border-style: solid;
 }
-.btn.btn-submit {
+.btn.btn-search {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0.063rem solid #E2E2E2;
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2rem;
+    height: 1.5rem;
     border-radius: 0;
     border-top-right-radius: 0.188rem;
     border-bottom-right-radius: 0.188rem;
+    padding: 0;
+    color: #d7d6d6;
 }
-.btn.btn-submit i {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+.btn.btn-search i {
+    font-size: 0.625rem;
+    line-height: 0.625rem;
 }
