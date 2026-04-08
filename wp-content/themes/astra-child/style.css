@@ -1,0 +1,50 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Arial', sans-serif;
+}
+.elementor-widget-text-editor h1, .elementor-text-editor h1, .elementor-widget-text-editor h2, .elementor-text-editor h2, .elementor-widget-text-editor h3, .elementor-text-editor h3, .elementor-widget-text-editor h4, .elementor-text-editor h4, .elementor-widget-text-editor h5, .elementor-text-editor h5, .elementor-widget-text-editor h6, .elementor-text-editor h6 {
+    font-weight: 700;
+}
+.elementor-widget-text-editor p, .elementor-text-editor p, .elementor-widget-text-editor ul, .elementor-text-editor ul, .elementor-widget-text-editor ol, .elementor-text-editor ol {
+    font-weight: 400;
+}
+.elementor-widget-text-editor h1, .elementor-text-editor h1, .elementor-widget-text-editor h2, .elementor-text-editor h2, .elementor-widget-text-editor h3, .elementor-text-editor h3, .elementor-widget-text-editor h4, .elementor-text-editor h4, .elementor-widget-text-editor h5, .elementor-text-editor h5, .elementor-widget-text-editor h6, .elementor-text-editor h6, .elementor-widget-text-editor p, .elementor-text-editor p, .elementor-widget-text-editor ul, .elementor-text-editor ul, .elementor-widget-text-editor ol, .elementor-text-editor ol {
+    margin-bottom: 0;
+}
+
+.elementor-widget-text-editor p:not(:last-child), .elementor-text-editor p:not(:last-child), .elementor-widget-text-editor ul:not(:last-child), .elementor-text-editor ul:not(:last-child), .elementor-widget-text-editor ol:not(:last-child), .elementor-text-editor ol:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.table-wrapper {
+    overflow-x: auto;
+}
+.table-wrapper table {
+    width: fit-content;
+}
+table, table th, table td {
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 0.625rem 1rem;
+}
