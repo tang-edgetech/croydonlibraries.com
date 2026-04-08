@@ -48,3 +48,11 @@ table, table th, table td {
 table th, table td {
     padding: 0.625rem 1rem;
 }
+
+
+#masthead .eael-simple-menu-container {
+    min-height: 1.25rem;
+}
+#masthead .elementor-widget-eael-simple-menu .eael-simple-menu .menu-item > a {
+    
+}
