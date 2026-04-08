@@ -49,9 +49,22 @@ add_action('admin_enqueue_scripts', function() {
 
 function display_year_function() {
     ob_start();
-
     echo date('Y');
-    
     return ob_get_clean();
 }
 add_shortcode( 'year', 'display_year_function' );
+
+function hajimi_search_form_function() {
+    ob_start();
+    ?>
+    <div class="hajimi-searchbar">
+        <button type="button" class="btn btn-search hajimi-searchbar-button d-flex d-xl-none"><i class="fas fa-search" aria-hidden="true"></i><span>Search</span></button>
+        <form class="hajimi-search-form" method="get" action="/">
+            <input type="text" id="hajimi-search" name="s" value="<?php the_search_query();?>"/>
+            <button type="submit" class="btn btn-search hajimi-search-form-button"><i class="fas fa-search" aria-hidden="true"></i><span>Search</span></button>
+        </form>
+    </div>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode( 'hajimi_search_form', 'hajimi_search_form_function' );
