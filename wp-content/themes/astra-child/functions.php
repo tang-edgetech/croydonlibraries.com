@@ -35,6 +35,6 @@ function child_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
 function year() {
-    $year = new Date('Y');
+    $year = date('Y');
     return $year;
 }
