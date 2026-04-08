@@ -1,0 +1,26 @@
+[08-Apr-2026 04:01:32 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Core\Wp_Api" not found in /home/seot6/public_html/croydonlibraries.com/wp-content/plugins/elementor/includes/plugin.php:710
+Stack trace:
+#0 /home/seot6/public_html/croydonlibraries.com/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#1 /home/seot6/public_html/croydonlibraries.com/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#2 /home/seot6/public_html/croydonlibraries.com/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#3 /home/seot6/public_html/croydonlibraries.com/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#4 /home/seot6/public_html/croydonlibraries.com/wp-settings.php(742): do_action('init')
+#5 /home/seot6/public_html/croydonlibraries.com/wp-config.php(102): require_once('/home/seot6/pub...')
+#6 /home/seot6/public_html/croydonlibraries.com/wp-load.php(50): require_once('/home/seot6/pub...')
+#7 /home/seot6/public_html/croydonlibraries.com/wp-blog-header.php(13): require_once('/home/seot6/pub...')
+#8 /home/seot6/public_html/croydonlibraries.com/index.php(17): require('/home/seot6/pub...')
+#9 {main}
+  thrown in /home/seot6/public_html/croydonlibraries.com/wp-content/plugins/elementor/includes/plugin.php on line 710
+[08-Apr-2026 04:06:53 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Core\Wp_Api" not found in /home/seot6/public_html/croydonlibraries.com/wp-content/plugins/elementor/includes/plugin.php:710
+Stack trace:
+#0 /home/seot6/public_html/croydonlibraries.com/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#1 /home/seot6/public_html/croydonlibraries.com/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#2 /home/seot6/public_html/croydonlibraries.com/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#3 /home/seot6/public_html/croydonlibraries.com/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#4 /home/seot6/public_html/croydonlibraries.com/wp-settings.php(742): do_action('init')
+#5 /home/seot6/public_html/croydonlibraries.com/wp-config.php(102): require_once('/home/seot6/pub...')
+#6 /home/seot6/public_html/croydonlibraries.com/wp-load.php(50): require_once('/home/seot6/pub...')
+#7 /home/seot6/public_html/croydonlibraries.com/wp-blog-header.php(13): require_once('/home/seot6/pub...')
+#8 /home/seot6/public_html/croydonlibraries.com/index.php(17): require('/home/seot6/pub...')
+#9 {main}
+  thrown in /home/seot6/public_html/croydonlibraries.com/wp-content/plugins/elementor/includes/plugin.php on line 710
