@@ -47,8 +47,8 @@ add_action('admin_enqueue_scripts', function() {
     wp_enqueue_script('wp-editor');
 });
 
-function year() {
+function display_year_function() {
     $year = date('Y');
     return $year;
 }
-
+add_shortcode( 'year', 'display_year_function' );
