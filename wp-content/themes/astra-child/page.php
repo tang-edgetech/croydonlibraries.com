@@ -1,6 +1,5 @@
 <?php
 
-global $elementor_mode;
 get_header();
 ?>
     <div class="main-content">
