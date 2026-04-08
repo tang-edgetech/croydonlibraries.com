@@ -11,7 +11,7 @@
     
 }
 @media (min-width: 1200px) {
-    #masthead .eael-simple-menu >  .menu-item:last-child > a {
+    .elementor-widget-eael-simple-menu .eael-simple-menu > .menu-item:last-child > a {
         border-right: 0;
     }
 }

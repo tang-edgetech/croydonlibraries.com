@@ -51,8 +51,8 @@ table, table th, table td {
 table th, table td {
     padding: 0.625rem 1rem;
 }
-#masthead .eael-simple-menu-container {
-    min-height: 1.25rem;
+.elementor-widget-eael-simple-menu .eael-simple-menu-container {
+    min-height: 0.5rem;
 }
 .hajimi-search-form {
     display: flex;
