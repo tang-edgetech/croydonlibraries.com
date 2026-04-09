@@ -5,13 +5,13 @@
     .hajimi-search-form {
         display: none;
         position: absolute;
-        right: 0.625rem;
+        top: 2.25rem;
+        right: -4rem;
         width: calc( 100vw - 1.25rem );
-        padding: 0.625rem 1rem 1rem;
+        padding: 2rem;
         box-shadow: 0px 1px 3px 0px #333333;
-        border-radius: 0;
-        border-bottom-left-radius: 0.188rem;
-        border-bottom-right-radius: 0.188rem;
+        border-radius: 0.188rem;
+        background-color: #f2f3f3;
     }
     .hajimi-searchbar > .btn.btn-search {
         border-color: transparent;
@@ -20,7 +20,14 @@
         font-size: 1.5rem;
         line-height: 1.5rem;
     }
+    .hajimi-searchbar .hajimi-search-form > .btn.btn-search i {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
     .hajimi-search-form > input {
+        width: 12.5rem;
+    }
+    #hajimi-search {
         width: 12.5rem;
     }
 }
