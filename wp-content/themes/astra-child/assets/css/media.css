@@ -2,6 +2,27 @@
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle::before {
         display: none;
     }
+    .hajimi-search-form {
+        display: none;
+        position: absolute;
+        right: 0.625rem;
+        width: calc( 100vw - 1.25rem );
+        padding: 0.625rem 1rem 1rem;
+        box-shadow: 0px 1px 3px 0px #333333;
+        border-radius: 0;
+        border-bottom-left-radius: 0.188rem;
+        border-bottom-right-radius: 0.188rem;
+    }
+    .btn.btn-search {
+        border-color: transparent;
+    }
+    .btn.btn-search i {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .hajimi-search-form > input {
+        width: 15rem;
+    }
 }
 @media (min-width: 768px) {
     

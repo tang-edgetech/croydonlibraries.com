@@ -54,7 +54,7 @@ table th, table td {
 .elementor-widget-eael-simple-menu .eael-simple-menu-container {
     min-height: 0.5rem!important;
 }
-.hajimi-search-form {
+.hajimi-search-form .form-inner {
     display: flex;
     align-items: center;
     height: 1.5rem;
