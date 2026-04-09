@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle::before {
-        display: none;
+        display: none!important;
     }
     .hajimi-search-form {
         display: none;
