@@ -18,7 +18,7 @@
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle svg {
         width: 2rem;
         height: 1.5rem;
-        fill: #333;
+        fill: #808;
     }
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle::before {
         content: 'MENU';
