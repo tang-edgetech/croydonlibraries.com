@@ -13,15 +13,15 @@
         border-bottom-left-radius: 0.188rem;
         border-bottom-right-radius: 0.188rem;
     }
-    .btn.btn-search {
+    .hajimi-searchbar > .btn.btn-search {
         border-color: transparent;
     }
-    .btn.btn-search i {
+    .hajimi-searchbar > .btn.btn-search i {
         font-size: 1.5rem;
         line-height: 1.5rem;
     }
     .hajimi-search-form > input {
-        width: 15rem;
+        width: 12.5rem;
     }
 }
 @media (min-width: 768px) {
