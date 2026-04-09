@@ -40,6 +40,9 @@
     }
 }
 @media (max-width: 1199px) {
+    main {
+        min-height: 100vh;
+    }
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle {
         display: flex;
         align-items: center;

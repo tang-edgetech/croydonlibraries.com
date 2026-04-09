@@ -33,7 +33,9 @@ $(document).ready(function() {
             if( $('.hajimi-searchbar').hasClass('searchbar-opened') ) {
                 $('.hajimi-searchbar').removeClass('searchbar-opened');
                 $('.hajimi-searchbar .hajimi-search-form').fadeOut();
-                $('.hajimi-searchbar').toggleClass('fa-times fa-search');
+                if(  $('.hajimi-searchbar > .btn.btn-search > i').hasClass('fa-times') ) {
+                    $('.hajimi-searchbar > .btn.btn-search > i').toggleClass('fa-times fa-search');
+                }
             }
         }
     }
