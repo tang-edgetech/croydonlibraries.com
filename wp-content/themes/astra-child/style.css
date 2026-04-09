@@ -23,6 +23,14 @@ html, body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Arial', sans-serif;
 }
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#app main {
+    flex: 1;
+}
 .elementor-widget-text-editor h1, .elementor-text-editor h1, .elementor-widget-text-editor h2, .elementor-text-editor h2, .elementor-widget-text-editor h3, .elementor-text-editor h3, .elementor-widget-text-editor h4, .elementor-text-editor h4, .elementor-widget-text-editor h5, .elementor-text-editor h5, .elementor-widget-text-editor h6, .elementor-text-editor h6 {
     font-weight: 700;
 }

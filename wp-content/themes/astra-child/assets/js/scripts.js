@@ -32,7 +32,7 @@ $(document).ready(function() {
         else {
             if( $('.hajimi-searchbar').hasClass('searchbar-opened') ) {
                 $('.hajimi-searchbar').removeClass('searchbar-opened');
-                $('.hajimi-searchbar .hajimi-search-form').fadeOut();
+                $('.hajimi-searchbar .hajimi-search-form').show();
                 if(  $('.hajimi-searchbar > .btn.btn-search > i').hasClass('fa-times') ) {
                     $('.hajimi-searchbar > .btn.btn-search > i').toggleClass('fa-times fa-search');
                 }
