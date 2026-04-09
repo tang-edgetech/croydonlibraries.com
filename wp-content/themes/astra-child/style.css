@@ -148,6 +148,8 @@ table th, table td {
 }
 .hajimi-breadcrumb .hajimi-breadcrumb-item::before {
     border-left-color: #f2f2f2;
+    margin-left: -0.063rem;
+    z-index: 1;
 }
 .hajimi-breadcrumb .hajimi-breadcrumb-item::after {
     border-left-color: #a7a7a7;
