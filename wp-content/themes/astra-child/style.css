@@ -147,7 +147,7 @@ table th, table td {
     transform: translateY(-0.313rem);
 }
 .hajimi-breadcrumb .hajimi-breadcrumb-item::after {
-    border-color: #a7a7a7;
+    border-left-color: #a7a7a7;
 }
 .hajimi-breadcrumb .hajimi-breadcrumb-item {
     display: flex;
