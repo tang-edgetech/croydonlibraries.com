@@ -4,9 +4,6 @@
 @media (min-width: 768px) {
     
 }
-@media (min-width: 768px) and (max-width: 1199px) {
-    
-}
 @media (max-width: 1199px) {
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle {
         display: flex;
@@ -48,9 +45,6 @@
 @media (min-width: 1200px) {
     .elementor-widget-eael-simple-menu .eael-simple-menu > .menu-item:last-child > a {
         border-right: 0!important;
-    }
-    #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle-text {
-        display: none;
     }
 }
 @media (min-width: 1600px) {

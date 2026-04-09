@@ -52,7 +52,7 @@ table th, table td {
     padding: 0.625rem 1rem;
 }
 .elementor-widget-eael-simple-menu .eael-simple-menu-container {
-    min-height: 0.5rem;
+    min-height: 0.5rem!important;
 }
 .hajimi-search-form {
     display: flex;
@@ -88,4 +88,7 @@ table th, table td {
 .btn.btn-search i {
     font-size: 0.625rem;
     line-height: 0.625rem;
+}
+#masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle-text {
+    display: none;
 }
