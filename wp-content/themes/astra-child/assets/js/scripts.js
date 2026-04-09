@@ -6,21 +6,27 @@ $(document).ready(function() {
                 $button.toggleClass('is-active');
             });
 
+        }
+        else {
+            $('#masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle').removeClass('is-active');
+        }
+
+        
+        if( window.matchMedia("(max-width: 767px)").matches ) {
             $(document).on('click', '.hajimi-searchbar > .btn.btn-search', function() {
                 var $button = $(this),
                     $parent = $button.parents('.hajimi-searchbar');
-                if( $('.hajimi-searchbar').hasClass('searchbar-opened') ) {
-                    $('.hajimi-searchbar').removeClass('searchbar-opened');
+                if( $parent.hasClass('searchbar-opened') ) {
+                    $parent.removeClass('searchbar-opened');
                     $('.hajimi-searchbar .hajimi-search-form').fadeOut();
                 }
                 else {
-                    $('.hajimi-searchbar').addClass('searchbar-opened');
+                    $parent.addClass('searchbar-opened');
                     $('.hajimi-searchbar .hajimi-search-form').fadeIn();
                 }
             });
         }
         else {
-            $('#masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle').removeClass('is-active');
             if( $('.hajimi-searchbar').hasClass('searchbar-opened') ) {
                 $('.hajimi-searchbar').removeClass('searchbar-opened');
                 $('.hajimi-searchbar .hajimi-search-form').fadeOut();
