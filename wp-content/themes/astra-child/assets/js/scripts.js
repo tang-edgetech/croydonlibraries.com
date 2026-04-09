@@ -15,14 +15,17 @@ $(document).ready(function() {
         if( window.matchMedia("(max-width: 767px)").matches ) {
             $(document).on('click', '.hajimi-searchbar > .btn.btn-search', function() {
                 var $button = $(this),
-                    $parent = $button.parents('.hajimi-searchbar');
+                    $parent = $button.parents('.hajimi-searchbar'),
+                    $icon = $button.find('i');
                 if( $parent.hasClass('searchbar-opened') ) {
                     $parent.removeClass('searchbar-opened');
                     $('.hajimi-searchbar .hajimi-search-form').fadeOut();
+                    $icon.toggleClass('fa-times fa-search');
                 }
                 else {
                     $parent.addClass('searchbar-opened');
                     $('.hajimi-searchbar .hajimi-search-form').fadeIn();
+                    $icon.toggleClass('fa-search fa-times');
                 }
             });
         }
@@ -30,6 +33,7 @@ $(document).ready(function() {
             if( $('.hajimi-searchbar').hasClass('searchbar-opened') ) {
                 $('.hajimi-searchbar').removeClass('searchbar-opened');
                 $('.hajimi-searchbar .hajimi-search-form').fadeOut();
+                $('.hajimi-searchbar').toggleClass('fa-times fa-search');
             }
         }
     }
