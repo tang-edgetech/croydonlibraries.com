@@ -9,8 +9,8 @@ get_header();
         if ( !is_front_page() && !is_search() && !is_404() ) {
         ?>
         <div class="hajimi-container">
-            <div class="page-header">
-                <div class="page-title"><?= get_the_title();?></div>
+            <div class="hajimi-page-header">
+                <div class="hajimi-page-title"><?= get_the_title();?></div>
                 <?php hajimi_breadcrumb();?>
             </div>
         </div>
