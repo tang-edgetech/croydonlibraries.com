@@ -97,9 +97,7 @@
     }
 }
 @media (min-width: 1200px) {
-    .elementor-widget-eael-simple-menu .eael-simple-menu > .menu-item:last-child > a {
-        border-right: 0!important;
-    }
+    
 }
 @media (min-width: 1600px) {
 

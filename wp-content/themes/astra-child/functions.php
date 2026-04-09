@@ -71,3 +71,18 @@ function hajimi_search_form_function() {
     return ob_get_clean();
 }
 add_shortcode( 'hajimi_search_form', 'hajimi_search_form_function' );
+
+function hajimi_breadcrumb() {
+    ob_start();
+    ?>
+        <ul class="hajimi-breadcrumb">
+            <li class="hajimi-breadcrumb-link">
+                <a href="<?= home_url();?>"><i class="fas fa-home" aria-hidden="true"></i><span class="d-none">Home</span></a>
+            </li>
+            <li class="hajimi-breadcrumb-link">
+                <span><?= get_the_title();?></span>
+            </li>
+        </ul>
+    <?php
+    return ob_get_clean();
+}
