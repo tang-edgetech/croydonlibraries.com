@@ -7,7 +7,7 @@ get_header();
     while (have_posts()) {
         the_post();
         if ( !is_front_page() || !is_search() || !is_404() ) {
-            $first_model = ['join-the-library', 'find-the-library', 'online-library', 'news-events'];
+            $first_model = ['join-the-library', 'find-your-library', 'online-library', 'news-events'];
             $current_slug = get_post_field('post_name', get_post());
             if (in_array($current_slug, $first_model)) {
             ?>
