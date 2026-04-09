@@ -146,6 +146,9 @@ table th, table td {
     left: 100%;
     transform: translateY(-0.313rem);
 }
+.hajimi-breadcrumb .hajimi-breadcrumb-item::before {
+    border-left-color: #f2f2f2;
+}
 .hajimi-breadcrumb .hajimi-breadcrumb-item::after {
     border-left-color: #a7a7a7;
 }
