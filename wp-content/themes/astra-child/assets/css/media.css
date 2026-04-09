@@ -56,6 +56,10 @@
         font-size: 0.875rem;
         line-height: 0.875rem;
     }
+    #masthead .eael-simple-menu .menu-item.current-menu-item a, #masthead .eael-simple-menu .menu-item a:hover, #masthead .eael-simple-menu .menu-item a:focus {
+        background-color: #808;
+        color: #fff;
+    }
 }
 @media (min-width: 1200px) {
     .elementor-widget-eael-simple-menu .eael-simple-menu > .menu-item:last-child > a {
