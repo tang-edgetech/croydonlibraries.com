@@ -95,9 +95,14 @@
         background-color: #808;
         color: #fff;
     }
+    .hajimi-container {
+        padding: 0 0.625rem;
+    }
 }
 @media (min-width: 1200px) {
-    
+    .hajimi-container {
+        max-width: 980px;
+    }
 }
 @media (min-width: 1600px) {
 

@@ -103,3 +103,7 @@ table th, table td {
 .elementor-widget-eael-simple-menu .eael-simple-menu > .menu-item:last-child > a {
     border-right: 0!important;
 }
+.hajimi-container {
+    display: block;
+    width: 100%;
+}
