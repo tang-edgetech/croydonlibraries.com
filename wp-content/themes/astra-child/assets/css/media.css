@@ -11,6 +11,10 @@
         position: relative;
         padding: 0;
         width: max-content;
+        background: transparent;
+        padding: 0.313rem 0;
+        padding-left: 0.313rem;
+        z-index: 9;
     }
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle svg {
         width: 2rem;
@@ -24,6 +28,7 @@
         margin: 0;
         font-size: 0.875rem;
         line-height: 0.875rem;
+        margin-right: 0.313rem;
         color: #808;
     }
     #masthead .elementor-widget-eael-simple-menu .eael-simple-menu-toggle.is-active::before {
@@ -37,9 +42,19 @@
         max-width: 380px;
         width: 100%;
         width: 320px;
-        padding: 70px 0 1rem;
-        background: #ddd;
+        padding: 4.5rem 0 1.5rem;
+        background: #f2f3f3;
         text-align: center;
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
+        border: 0.125rem solid #fff;
+    }
+    #masthead .eael-simple-menu .menu-item a {
+        display: block;
+        color: #808;
+        text-transform: uppercase;
+        padding: 0.625rem;
+        font-size: 0.875rem;
+        line-height: 0.875rem;
     }
 }
 @media (min-width: 1200px) {
