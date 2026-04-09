@@ -11,8 +11,8 @@ get_header();
         <div class="hajimi-container">
             <div class="hajimi-page-header">
                 <div class="hajimi-page-title"><?= get_the_title();?></div>
-                <?php hajimi_breadcrumb();?>
             </div>
+            <?php hajimi_breadcrumb();?>
         </div>
         <?php
         }

@@ -76,10 +76,10 @@ function hajimi_breadcrumb() {
     ob_start();
     ?>
         <ul class="hajimi-breadcrumb">
-            <li class="hajimi-breadcrumb-link">
+            <li class="hajimi-breadcrumb-item">
                 <a href="<?= home_url();?>"><i class="fas fa-home" aria-hidden="true"></i><span class="d-none">Home</span></a>
             </li>
-            <li class="hajimi-breadcrumb-link">
+            <li class="hajimi-breadcrumb-item">
                 <span><?= get_the_title();?></span>
             </li>
         </ul>
